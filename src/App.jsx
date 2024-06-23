@@ -12,7 +12,7 @@ import { useEffect } from "react";
 // Component for handling the /admin redirect
 const AdminRedirect = () => {
   useEffect(() => {
-    window.location.href = 'https://dashboardfolio-ty57.vercel.app/login';
+    window.location.href = 'https://dashboardfolio-ty57.vercel.app/';
   }, []);
 
   return null;
